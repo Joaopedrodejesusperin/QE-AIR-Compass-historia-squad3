@@ -8,7 +8,8 @@ Iniciei o rastreio simulando a massa de dados em staging, mas o erro se esquivav
 
 Parte 3 - A comunicação e correção 
 Com a causa identificada, comuniquei rapidamente o time e abri um chamado crítico com evidências e impacto do erro. 
-O hotfix priorizou a sincronização do cálculo, eliminando a condição de corrida. Após validação em ambiente controlado e monitoramento em produção, o incidente foi estabilizado.
+O hotfix priorizou a sincronização do cálculo, eliminando a condição de corrida . 
+Após validação em ambiente controlado e monitoramento em produção, o incidente foi estabilizado.
 
 Parte 4 - A Prevenção 
 Com o problema corrigido, o foco passou a ser a prevenção. O cenário que causou a falha foi incorporado à suíte de testes de regressão, garantindo validação automática em futuras releases. 
